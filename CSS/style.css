@@ -1,0 +1,87 @@
+/* Navigation Bar */
+.customNav {
+    position: fixed;
+    width: 100%;
+    background-color: #382e59 !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 44px;
+  }
+  .navbar-brand {
+    padding-right: 15px;
+    width: 65px;
+    padding-left: 15px;
+    font-family: Quattrocento, sans-serif;
+    font-size: 30px;
+  }
+
+  /* Navigation links */
+  .nav-link {
+    padding: 15px;
+    margin-right: auto;
+    margin-left: 15px;
+    font-family: Quattrocento, sans-serif;
+    font-size: 24px;
+    color: white !important;
+  }
+  
+/* Top Section */  
+.topSection {
+  background-color: #1f1d1e;
+  color: white;
+}
+/* make shark image change depending on screen size (ie small shark species for small screens and big species for big screens */
+/* Top Section Gif */
+.btn-primary {
+  color: white;
+  background-color: #1f1d1e;
+  margin-top: 50px;
+  margin-left: 15px;
+  outline: none;
+  border: none;
+  font-family: Lora, sans-serif;
+  font-size: 25px;
+}
+.btn-primary:hover {
+  background-color: #382e59;
+  outline: none;
+  border: none;
+}
+.modal-content {
+  background-color: black;
+}
+/* Top Section Text */
+.bodyText-1 ,.bodyText-2 {
+  margin-left: 25px;
+  padding-right: 20px;
+  font-family: Lora, sans-serif;
+}
+.bodyText-1 {
+  margin-top: 20px;
+}
+.bodyText-2 {
+  margin-bottom: 20px;
+}
+@media (min-width: 1000px) {
+  .bodyText-1 ,.bodyText-2 {
+    font-size: 23px;
+  }
+}
+@media (max-width: 999.99px) {
+  .bodyText-1 ,.bodyText-2 {
+    font-size: 18px;
+  }
+}
+
+/* Card Section */
+.cardSection {
+background-color: #1f1d1e !important;
+}
+.card {
+ margin: 25px;
+ justify-content: center;
+ padding: 25px;
+}
